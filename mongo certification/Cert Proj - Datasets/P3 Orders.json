@@ -1,0 +1,78 @@
+[
+  {
+    "order_id": "ORD001",
+    "orderer_name": "John",
+    "category": {
+      "category_id": "CAT001",
+      "category_name": "mobile"
+    },
+    "brand": {
+      "brand_id": "BRN002",
+      "brand_name": "Samsung"
+    },
+    "items": {
+      "item id": "005",
+      "item name": "Samsung Galaxy J7",
+      "price": 11890
+    },
+    "order_date": "12-12-2017",
+    "shipping_date": "17-12-2017"
+  },
+  {
+    "order_id": "ORD002",
+    "orderer_name": "James",
+    "category": {
+      "category_id": "CAT003",
+      "category_name": "TV"
+    },
+    "brands": {
+      "brand_id": "BRN006",
+      "brand_name": "Philips",
+      "items": {
+        "item id": "021",
+        "item name": "32PFL3931/V7",
+        "price": 15999
+      },
+      "order_date": "23-12-2017",
+      "shipping_date": "27-12-2017"
+    }
+  },
+  {
+    "order_id": "ORD003",
+    "orderer_name": "John",
+    "category": {
+      "category_id": "CAT001",
+      "category_name": "mobile"
+    },
+    "brand": {
+      "brand_id": "BRN002",
+      "brand_name": "Samsung"
+    },
+    "items": {
+      "item id": "005",
+      "item name": "Samsung Galaxy J7",
+      "price": 11890
+    },
+    "order_date": "12-12-2017",
+    "shipping_date": "17-12-2017"
+  },
+  {
+    "order_id": "ORD004",
+    "orderer_name": "Smith",
+    "category": {
+      "category_id": "CAT002",
+      "category_name": "computer"
+    },
+    "brand": {
+      "brand_id": "BRN004",
+      "brand_name": "Apple"
+    },
+    "items": {
+      "item id": "013",
+      "item name": "Apple iMac",
+      "price": 82000
+    },
+    "order_date": "12-12-2017",
+    "shipping_date": "17-12-2017"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": { "first": "Harish", "last": "Chandra" },
+  "gender": "M",
+  "yearOfBirth": 1962,
+  "livesIn": "Mumbai",
+  "countriesVisited": [
+    "India",
+    "Singapore",
+    "Thailand",
+    "United Kingdom",
+    "Spain",
+    "Denmark",
+    "United States of America"
+  ],
+  "languages": [
+    { "name": "Hindi", "proficiency": "Fluent" },
+    { "name": "English", "proficiency": "Fluent" },
+    { "name": "Sanskrit", "proficiency": "Intermediate" }
+  ]
+}

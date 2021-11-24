@@ -1,0 +1,22 @@
+start /b mongod --shardsvr --replSet rs1 --dbpath s1r1 --port 27017 --logpath logs\s1rs1.log --logappend
+start /b mongod --shardsvr --replSet rs1 --dbpath s1r2 --port 27018 --logpath logs\s1rs2.log --logappend
+start /b mongod --shardsvr --replSet rs1 --dbpath s1r3 --port 27019 --logpath logs\s1rs3.log --logappend
+start /b mongod --shardsvr --replSet rs2 --dbpath s2r1 --port 37017 --logpath logs\s2rs1.log --logappend
+start /b mongod --shardsvr --replSet rs2 --dbpath s2r2 --port 37018 --logpath logs\s2rs2.log --logappend
+start /b mongod --shardsvr --replSet rs2 --dbpath s2r3 --port 37019 --logpath logs\s2rs3.log --logappend
+start /b mongod --shardsvr --replSet rs3 --dbpath s3r1 --port 47017 --logpath logs\s3rs1.log --logappend
+start /b mongod --shardsvr --replSet rs3 --dbpath s3r2 --port 47018 --logpath logs\s3rs2.log --logappend
+start /b mongod --shardsvr --replSet rs3 --dbpath s3r3 --port 47019 --logpath logs\s3rs3.log --logappend
+start /b mongod --configsvr --replSet cfg --dbpath cfg1 --port 57017 --logpath logs\cfg1.log --logappend
+start /b mongod --configsvr --replSet cfg --dbpath cfg2 --port 57018 --logpath logs\cfg2.log --logappend
+start /b mongod --configsvr --replSet cfg --dbpath cfg3 --port 57019 --logpath logs\cfg3.log --logappend
+
+
+start /b mongos --configdb cfg/DESKTOP-KVHCE4U:57017,DESKTOP-KVHCE4U:57018,DESKTOP-KVHCE4U:57019 --port 30000 --logpath logs\router.log --logappend
+
+
+
+
+start /b mongod --replSet rs1 --dbpath r1 --port 27017 --logpath logs\s1rs1.log --logappend
+start /b mongod --replSet rs1 --dbpath r2 --port 27018 --logpath logs\s1rs2.log --logappend
+start /b mongod --replSet rs1 --dbpath r3 --port 27019 --logpath logs\s1rs3.log --logappend

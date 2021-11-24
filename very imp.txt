@@ -1,0 +1,1 @@
+if i keep mongo floder in local disc d then it will by default look for data/db folder in local disk d
